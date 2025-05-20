@@ -4,12 +4,12 @@
     <section class="home" id="home">
       <div class="home-overlay">
         <div class="content">
-          <h1>Mas Gondrong</h1>
+          <h1>Sewa Kendaraan Mas Gondrong</h1>
           <p>Dari Mas Gondrong untuk perjalanan hebatmu</p>
           <button class="btn-pesan" @click.prevent="handleSewa()">Sewa Sekarang!</button>
         </div>
         <div class="image">
-          <img src="@/assets/images/mobillbanner.png" alt="Banner perusahaan" class="img-fluid" width="600" height="400">
+          <img src="@/assets/images/mobillbanner.png" alt="Banner perusahaan" class="img-fluid" width="800" height="400">
         </div>
       </div>
     </section>
@@ -50,11 +50,11 @@
             <div class="col-md-4" v-for="(item, index) in kendaraanTersaring" :key="index">
               <div class="box">
                 <img 
-                  :src="require(`@/assets/images/${item.gambar}`)"
-                  :alt="`Gambar kendaraan ${item.nama}`"
+                  :src="require(@/assets/images/${item.gambar})"
+                  :alt="Gambar kendaraan ${item.nama}"
                   class="product-img"
-                  width="300"
-                  height="200"
+                  width="150"
+                  height="100"
                 />
                 <h3 class="product-title">{{ item.nama }}</h3>
                 <div class="price">{{ item.harga }}</div>
@@ -77,7 +77,7 @@
             <div class="col-md-4" v-for="(review, i) in testimonials" :key="i">
               <div class="box">
                 <p>{{ review.text }}</p>
-                <img :src="require('@/assets/images/logo.jpg')" :alt="`Foto pelanggan ${review.nama}`" class="user" width="100" height="100" />
+                <img :src="require('@/assets/images/logo.jpg')" :alt="Foto pelanggan ${review.nama}" class="user" width="100" height="100" />
                 <h3>{{ review.nama }}</h3>
                 <div class="stars">
                   <i class="fas fa-star" v-for="s in review.rating" :key="s"></i>
