@@ -45,7 +45,7 @@ export default {
   },
   methods: {
     handlePayment() {
-      // Di sini bisa ditambahkan validasi/metode simpan data pembayaran
+      // Di sini kita bisa ditambahkan validasi/metode simpan data pembayaran
       alert(`Pembayaran dengan metode ${this.metode} berhasil (simulasi).`);
     }
   }
