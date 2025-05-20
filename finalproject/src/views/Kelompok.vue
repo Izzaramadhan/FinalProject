@@ -12,6 +12,7 @@
   </div>
 </template>
 
+  //Menampilkan nama, NIM, dan deskripsi masing-masing
 <script>
 export default {
   name: "KelompokPage",
