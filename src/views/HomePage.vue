@@ -9,7 +9,7 @@
           <button class="btn-pesan" @click.prevent="handleSewa()">Sewa Sekarang!</button>
         </div>
         <div class="image">
-          <img src="@/assets/images/mobillbanner.png" alt="Banner perusahaan" class="img-fluid" width="800" height="600">
+          <img src="@/assets/images/mobillbanner.png" alt="Banner perusahaan" class="img-fluid" width="800" height="400">
         </div>
       </div>
     </section>
