@@ -7,8 +7,8 @@
 
     <div class="right">
       <nav class="navbar">
-        <router-link to="/">HomePage</router-link>
-        <router-link to="/kelompok">About</router-link>
+        <router-link to="/">Beranda</router-link>
+        <router-link to="/kelompok">Tentang Kami</router-link>
         <router-link to="/cara-sewa">Cara Sewa</router-link>
       </nav>
 

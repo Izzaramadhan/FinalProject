@@ -142,17 +142,14 @@ section {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 1000%;
   background-image: url('@/assets/images/Bannerr.jpeg');
   background-size: cover;
-  background-position: top center;
+  background-position: center center;
   background-repeat: no-repeat;
   opacity: 0.50;
   z-index: 0;
 }
-
-
-
 
 /* Pastikan isi .home tampil di atas background */
 .home > * {
@@ -187,13 +184,11 @@ section {
   color: #222;
 }
 
-
 .home .content h3 {
   font-size: 4.5rem;
   text-transform: uppercase;
   color: var(--bg);
 }
-
 
 .home .content p {
   font-size: 2rem;
